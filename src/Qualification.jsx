@@ -1,4 +1,12 @@
 import React from "react";
+import SchoolIcon from '@mui/icons-material/School';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import WorkIcon from '@mui/icons-material/Work';
+import PersonIcon from '@mui/icons-material/Person';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+import { EvStation } from "@mui/icons-material";
 
 function Qualification() {
   const education = [
@@ -10,10 +18,34 @@ function Qualification() {
     {
       "name":"Maheshwari Sr. Sec. School",
       "year":"2017-2019",
-      "degree":"Bachelors in Computer Applications",
-    } 
+      "degree":"12th",
+    },
+    {
+      "name":"Maheshwari Sr. Sec. School",
+      "year":"2012-2017",
+      "degree":"10th",
+    }  
   ];
-  console.log(education)
+  const training = [
+    {
+      "name":"Durapid Technologies",
+      "role":"Asscociate Software Developer",
+      "degree":"Front-end Development",
+    },  
+    {
+      "name":"Full Stack Learning",
+      "role":"Trainee",
+      "degree":"Full Stack Development",
+      
+    },
+    {
+      "name":"Let's Grow More",
+      "role":"Web Developer Intern",
+      "degree":"Web Developement",
+    }
+    
+  ];
+
   return (
     <section className="section4">
       <div className="container">
@@ -22,19 +54,49 @@ function Qualification() {
             <p>Qualifications</p>
             <span>My Education</span>
           </div>
-          {
+          <div className="education-container">
+
+          <Tabs>
+            <TabList>
+              <Tab>Education</Tab>
+              <Tab>Training</Tab>
+            </TabList>
+
+            <TabPanel>
+            {
           
-            education.map((i,index) => (
-            
-              <div key={index} className="ed-boxes">
-                <div className="ed-box">
-                  <h1>{i.name}</h1>
-                  <p>{i.year}</p>
-                  <p>{i.degree}</p>
+          education.map((i,index) => (
+              <div key={index} className="ed-box">
+                <div className="left"></div>
+                <div className="ed-data-wrapper">
+                  <div className="ed-data"><h1><SchoolIcon/><span>{i.name}</span></h1></div>
+                  <div className="ed-data"><p><CalendarMonthIcon/><span>{i.year}</span></p></div>
+                  <div className="ed-data"><p><WorkspacePremiumIcon/><span>{i.degree}</span></p></div>
                 </div>
               </div>
-          ))}
+            
+        ))}
+            </TabPanel>
+            <TabPanel>
+            {
+          
+          training.map((i,index) => (
+           
+              <div key={index} className="ed-box">
+                <div className="ed-data"><h1><WorkIcon/><span>{i.name}</span></h1></div>
+                <div className="ed-data"><p><PersonIcon/><span>{i.role}</span></p></div>
+                <div className="ed-data"><p><WorkspacePremiumIcon/><span>{i.degree}</span></p></div>
+              </div>
+            
+        ))}
+            </TabPanel>
+          </Tabs>
+
+
+          
+          </div>
         </div>
+        
       </div>
     </section>
   );
