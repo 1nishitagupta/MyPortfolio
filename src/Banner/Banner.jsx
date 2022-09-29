@@ -1,8 +1,9 @@
 import React from 'react'
+import "./banner.css"
 
-function Banner() {
+function Banner(props) {
   return (
-    <section className='section1'>
+    <section className='section1' id={props.aref}>
       <div className="container">
         <div className="banner">
           <div className="intro">

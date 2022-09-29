@@ -1,0 +1,147 @@
+.nav{
+    position: fixed;
+    background: transparent;
+    width: 100%;
+    top: 0;
+    z-index: 111;
+    color: #fff;
+    transition: all .7s ease-in-out;
+
+}
+
+.navscroll{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 111;
+    box-shadow: 1px 1px 10px 2px #9d9d9d;
+    background-color: rgba(255, 255, 255, 1);
+    color: #050505;
+    transition: all .4s ease-in-out;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px 20px;
+    font-size: 1.2vw;
+    
+}
+.navbar .logo{
+    height: 100%;
+    width: auto;
+}
+.navbar .logo .logoblack{
+    height: 100%;
+    transition: all .4s ease-in-out;
+}
+.navbar .logo .logowhite{
+    height: 100%;
+    filter: invert(100%);
+    transition: all .4s ease-in-out;
+}
+
+.navbar .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .dropdown ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 60px;
+}
+.navbar .dropdown ul li a{
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all .2s ease;
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.navbar .ham-dropdown ul li a:hover{
+    color: #705edc;
+    transition: all .2s ease;
+}
+.navbar ul li a:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-bottom: 2px solid #f6f6f6;
+	transition:all .4s;
+}
+.nav ul li a:hover:before{
+	width: 100%;
+}
+.navscroll ul li a:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-bottom: 2px solid #050505;
+	transition:all .4s;
+}
+.navscroll ul li a:hover:before{
+	width: 100%;
+}
+.navbar .ham-dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 60px;
+}
+
+.navbar .menu .contact button{
+    padding: 10px 20px 10px 30px;
+    font-size: 1.2vw;
+    color: #fff;
+    background-color: #705edc;
+    border: none;
+    border-radius: 60px 10px 10px 10px;
+    cursor: pointer;
+}
+.ham-dropdown ul a{
+    text-decoration: none;
+    color: inherit;
+}
+.hamburger{
+    display: none;
+}
+.nav .bar1,.nav .bar2,.nav .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+.navscroll .bar1,.navscroll .bar2,.navscroll .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+.claassss{
+    display: none;
+}
+.ham{
+    display: none;
+}
+
+.navbar .menu .contact button:hover{
+    background-color: #4b3cac;
+    transition: all .2s ease-in-out;
+}

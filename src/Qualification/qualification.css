@@ -1,0 +1,35 @@
+
+.education-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.ed-box{
+    box-shadow: 1px 1px 10px 2px #9d9d9d;
+    border-radius: 12px;
+    color: #4b4b4b;
+    margin: 15px 0  ;
+    /* width: 30vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    /* align-items: center; */
+    padding: 10px 14px;
+    transition: all .3s ease-out;
+}
+.ed-box p , .ed-box h1{
+    padding-bottom: 10px;
+}
+.ed-box:hover{
+    background-color: #705edc;
+    color: #f6f6f6;
+    transition: all .3s ease-in ;
+}
+.ed-data p , .ed-data h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

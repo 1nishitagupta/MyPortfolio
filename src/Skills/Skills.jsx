@@ -1,8 +1,9 @@
 import React from "react";
+import "./skills.css"
 
-function Skills() {
+function Skills(props) {
   return (
-    <section className="skills section" id="skills">
+    <section className="skills section" id={props.aref}>
       <div className="container dc-flex">
       <div className="heading">
             <p>Skills</p>
@@ -47,9 +48,9 @@ function Skills() {
                 <i className="bx bxs-paint skills__icon"></i>
                 <span className="skills__name">ReactJs</span>
               </div>
-              <div className="skills__bar skills__ux"></div>
+              <div className="skills__bar skills__rt"></div>
               <div>
-                <span className="skills__percentage">85%</span>
+                <span className="skills__percentage">65%</span>
               </div>
             </div>
           </div>

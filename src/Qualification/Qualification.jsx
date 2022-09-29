@@ -1,4 +1,5 @@
 import React from "react";
+import "./qualification.css"
 import SchoolIcon from '@mui/icons-material/School';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
@@ -8,7 +9,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { EvStation } from "@mui/icons-material";
 
-function Qualification() {
+function Qualification(props) {
   const education = [
     {
       "name":"University Maharani College",
@@ -47,7 +48,7 @@ function Qualification() {
   ];
 
   return (
-    <section className="section4">
+    <section className="section4" id={props.aref}>
       <div className="container">
         <div className="education">
           <div className="heading">
@@ -91,12 +92,8 @@ function Qualification() {
         ))}
             </TabPanel>
           </Tabs>
-
-
-          
           </div>
         </div>
-        
       </div>
     </section>
   );

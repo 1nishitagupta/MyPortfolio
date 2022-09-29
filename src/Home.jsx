@@ -1,15 +1,11 @@
 import React , {useState} from "react";
-import Navbar from "./Navbar";
-import Banner from "./Banner";
-import About from "./About";
-import Skills from "./Skills";
-import Qualification from "./Qualification";
-import Services from "./Services";
-import Hamburger from "./Hamburger";
-
-
-
-
+import Navbar from "./Navbar/Navbar";
+import Banner from "./Banner/Banner";
+import About from "./About/About";
+import Skills from "./Skills/Skills";
+import Qualification from "./Qualification/Qualification";
+// import Services from "./Services";
+import Hamburger from "./Navbar/Hamburger";
 
 
 function Home() {
@@ -25,12 +21,12 @@ function Home() {
 
   return (
     <>
-      <Navbar isActive={isActive} setIsActive={setIsActive} handleClick={handleClick} />
+      <Navbar isActive={isActive} setIsActive={setIsActive} handleClick={handleClick}  />
       <Hamburger isActive={isActive} setIsActive={setIsActive}/>
-      <Banner />
-      <About />
-      <Qualification />
-       <Skills />
+      <Banner aref="home" />
+      <About aref="about"/>
+      <Qualification aref="education"/>
+      <Skills aref="skills"/>
       {/* <Services/> */}
     </>
   );

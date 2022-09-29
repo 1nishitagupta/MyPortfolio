@@ -1,9 +1,10 @@
 import React from "react";
+import "./about.css"
 import DownloadIcon from '@mui/icons-material/Download';
 
-function About() {
+function About(props) {
   return (
-    <section className="section2">
+    <section className="section2" id={props.aref}>
       <div className="container">
         <div className="about">
           <div className="heading">
