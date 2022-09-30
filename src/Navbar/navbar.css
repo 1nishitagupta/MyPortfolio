@@ -102,6 +102,9 @@
     list-style: none;
     padding-right: 60px;
 }
+.navbar.ham-dropdown ul{
+    padding-left: 0;
+}
 
 .navbar .menu .contact button{
     padding: 10px 20px 10px 30px;

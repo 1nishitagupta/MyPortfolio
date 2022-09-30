@@ -43,7 +43,9 @@ section{
     font-size: 1.3vw;
 }
 
-
+.react-tabs{
+    width: 40vw;
+}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 750px){
@@ -71,10 +73,12 @@ section{
         position:fixed;
         top: 0;
         right: 0;
-        background-color: #202020;
+        background-color: rgba(11, 9, 9, 0.9);
         color: #f6f6f6;
         padding: 90px 65px;
+        width: 100vw;
         z-index: 8;
+       
     }
     .ham-dropdown ul{
         list-style: none;
@@ -82,8 +86,15 @@ section{
         height: 100vh;
         flex-direction: column;
         font-size: 20px;
-        gap: 20px;
-        width: 20vw;
+        gap: 30px;
+        padding-left: 0;
+        transition: all .3s ease;       
+    }
+    .ham-dropdown ul li a{
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        align-items: center;
     }
     .change .bar1 {
         transform: translate(0, 11px) rotate(-45deg);
@@ -135,6 +146,10 @@ section{
     }
     .skills__container {
         width: 70% !important;
+    }
+
+    .react-tabs{
+        width: 80vw;
     }
 
     

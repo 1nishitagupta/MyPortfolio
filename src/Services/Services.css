@@ -59,7 +59,7 @@
         flex-direction: column;
     }
     .service-box{
-        width: auto;
+        width: 70vw;
         height: 20vh;
         margin: 10px 0;
     }

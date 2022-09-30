@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Fade from 'react-reveal/Fade';
 import "./navbar.css"
 
 function Navbar({isActive , setIsActive ,handleClick}) {
@@ -18,6 +19,7 @@ function Navbar({isActive , setIsActive ,handleClick}) {
     <nav className={`${scrollY > 100 ? "navscroll" : "nav"} `}>
       <div className="container">
         <div className="navbar">
+        <Fade left>
           <div className="logo">
             <img
               className={`${scrollY > 100 ? "logoblack" : "logowhite"} `}
@@ -25,7 +27,10 @@ function Navbar({isActive , setIsActive ,handleClick}) {
               alt="logo"
             />
           </div>
+          </Fade>
+          <Fade right>
           <div className="menu">
+            
             <div className="dropdown">
               <ul>
                 <li><a href="#home">Home</a></li>
@@ -40,6 +45,7 @@ function Navbar({isActive , setIsActive ,handleClick}) {
               <button>Contact Me</button>
             </div>
           </div>
+          </Fade>
           <div className="ham">
           <div className={isActive ? 'change' : 'hamburger'} onClick={handleClick}>
             <div className="bar1"></div>

@@ -7,8 +7,9 @@ import Portfolio from "./Portfolio/Portfolio";
 import Qualification from "./Qualification/Qualification";
 import Services from "./Services/Services";
 import Contact from "./Contact/Contact"
+import Footer from "./Footer/Footer";
 import Hamburger from "./Navbar/Hamburger";
-
+import Fade from 'react-reveal/Fade';
 
 function Home() {
 
@@ -23,7 +24,9 @@ function Home() {
 
   return (
     <>
+  
       <Navbar isActive={isActive} setIsActive={setIsActive} handleClick={handleClick}  />
+   
       <Hamburger isActive={isActive} setIsActive={setIsActive}/>
       <Banner aref="home" />
       <About aref="about"/>
@@ -32,6 +35,7 @@ function Home() {
       <Services aref="services"/>
       <Portfolio aref="portfolio"/>
       <Contact/>
+      <Footer/>
     </>
   );
 }

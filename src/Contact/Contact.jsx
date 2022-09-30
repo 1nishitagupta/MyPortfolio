@@ -16,6 +16,10 @@ function Contact() {
             <input type="text" />
           </div>
           <div className="field">
+            <label For="">Phone</label>
+            <input type="text" />
+          </div>
+          <div className="field">
             <label htmlFor="">Message</label>
             <textarea name="" id="" ></textarea>
           </div>
