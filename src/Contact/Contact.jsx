@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 
-function Contact() {
+function Contact(props) {
   function Form() {
     return (
       <div className="form">
@@ -34,7 +34,7 @@ function Contact() {
   }
 
   return (
-    <section className="contact section" id="contact">
+    <section className="contact section" id={props.aref}>
       <div className="container">
         <div className="heading">
           <p>Contact Me</p>

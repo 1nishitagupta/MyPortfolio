@@ -34,7 +34,7 @@ function Home() {
       <Skills aref="skills"/>
       <Services aref="services"/>
       <Portfolio aref="portfolio"/>
-      <Contact/>
+      <Contact aref="contact"/>
       <Footer/>
     </>
   );

@@ -81,3 +81,22 @@
     background-color: #4b3cac;
     transition: all .2s ease-in-out;
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 750px){
+    .about-main .pic , .about-main .about-para{
+        width: 100%;
+    }
+    .about-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .about-main .about-boxes .box span:first-of-type {
+        font-size: 5vw;
+        font-weight: 500;
+    }  
+}

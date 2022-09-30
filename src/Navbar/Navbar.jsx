@@ -42,7 +42,7 @@ function Navbar({isActive , setIsActive ,handleClick}) {
             </div>
 
             <div className="contact">
-              <button>Contact Me</button>
+              <button><a href="#contact">Contact Me</a></button>
             </div>
           </div>
           </Fade>
