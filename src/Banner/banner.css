@@ -53,3 +53,17 @@
 }
 
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 750px){
+
+
+
+    .banner{
+        padding: 50px 25px;
+        font-size: 4vw;
+    }
+    .intro .heading1 p:first-of-type {
+        font-size: 8vw;
+    }
+  }
