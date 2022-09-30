@@ -3,8 +3,10 @@ import Navbar from "./Navbar/Navbar";
 import Banner from "./Banner/Banner";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
+import Portfolio from "./Portfolio/Portfolio";
 import Qualification from "./Qualification/Qualification";
-// import Services from "./Services";
+import Services from "./Services/Services";
+import Contact from "./Contact/Contact"
 import Hamburger from "./Navbar/Hamburger";
 
 
@@ -27,7 +29,9 @@ function Home() {
       <About aref="about"/>
       <Qualification aref="education"/>
       <Skills aref="skills"/>
-      {/* <Services/> */}
+      <Services aref="services"/>
+      <Portfolio aref="portfolio"/>
+      <Contact/>
     </>
   );
 }

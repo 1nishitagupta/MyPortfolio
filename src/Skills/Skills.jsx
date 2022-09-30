@@ -2,6 +2,9 @@ import React from "react";
 import "./skills.css"
 
 function Skills(props) {
+
+  
+
   return (
     <section className="skills section" id={props.aref}>
       <div className="container dc-flex">
@@ -55,9 +58,7 @@ function Skills(props) {
             </div>
           </div>
 
-          <div>
-            <img src="assets/img/work3.jpg" alt="" className="skills__img" />
-          </div>
+        
         </div>
       </div>
     </section>
