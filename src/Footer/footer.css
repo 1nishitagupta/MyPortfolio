@@ -1,0 +1,31 @@
+footer{
+    background-color: #703edc;
+    color: #fff;
+    padding: 30px 0;
+}
+.footer-cols{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-cols ul{
+    list-style: none;
+}
+footer .footer-cols ul a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+footer .fcolumns ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    justify-content: center;
+    align-items: center;
+}
+footer .social a{
+    height: 10px;
+    width: auto;
+}
+
