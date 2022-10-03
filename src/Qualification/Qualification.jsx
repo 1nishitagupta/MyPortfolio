@@ -5,6 +5,7 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import WorkIcon from '@mui/icons-material/Work';
 import PersonIcon from '@mui/icons-material/Person';
+import DataObjectIcon from '@mui/icons-material/DataObject';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { EvStation } from "@mui/icons-material";
@@ -36,6 +37,7 @@ function Qualification(props) {
     {
       "name":"Full Stack Learning",
       "role":"Trainee",
+      "learned": "HTML, CSS, JS, React, Bootstrap, PHP, Wordpress",
       "degree":"Full Stack Development",
       
     },
@@ -87,6 +89,8 @@ function Qualification(props) {
                 <div className="ed-data"><h1><WorkIcon/><span>{i.name}</span></h1></div>
                 <div className="ed-data"><p><PersonIcon/><span>{i.role}</span></p></div>
                 <div className="ed-data"><p><WorkspacePremiumIcon/><span>{i.degree}</span></p></div>
+                {i.learned && <div className="ed-data"><p><DataObjectIcon/><span>{i.learned}</span></p></div> }
+                
               </div>
             
         ))}
