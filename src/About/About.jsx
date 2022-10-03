@@ -48,7 +48,7 @@ function About(props) {
               </div>
               <div className="download-cv">
                 <button>
-                  <DownloadIcon></DownloadIcon> Download CV
+                  <DownloadIcon/> Download CV
                 </button>
               </div>
               </div>

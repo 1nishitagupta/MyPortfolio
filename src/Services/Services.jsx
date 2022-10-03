@@ -5,23 +5,24 @@ import BrushIcon from "@mui/icons-material/Brush";
 import CodeIcon from "@mui/icons-material/Code";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Services.css';
+import { Hidden } from "@mui/material";
 
 function Services(props) {
   const [modal, setModal] = useState(false);
 
   const services = [
     {
-      logo: "DesignServicesIcon",
+      logo: <DesignServicesIcon/>,
       service: "UI/UX",
       description: "I develop the user interface UI/UX",
     },
     {
-      logo: "CodeIcon",
+      logo: <CodeIcon/>,
       service: "Front-end Development",
       description: "I develop the user interface Front End",
     },
     {
-      logo: "BrushIcon",
+      logo: <BrushIcon/>,
       service: "Branding",
       description: "I develop the user interface Branding",
     },
@@ -35,9 +36,8 @@ function Services(props) {
           <div key={index} className="service-box">
             <div className="service-data-wrapper">
               <div className="service-data">
-                <p>
-                  {i.service}
-                </p>
+                <p>{i.logo}</p>
+                <p>{i.service}</p>
               </div>
               <button className="modalButton" onClick={() => setModal(true)}>
               View more <ArrowForwardIcon/>
@@ -53,11 +53,13 @@ function Services(props) {
     return (
       <Modal size="lg" isOpen={modal} toggle={() => setModal(!modal)}>
         {services.map((i, index) => (
+      
           <>
             <ModalHeader key={index} toggle={() => setModal(!modal)}>
               {i.description}
             </ModalHeader>
           </>
+          
         ))}
       </Modal>
     );
@@ -78,3 +80,5 @@ function Services(props) {
 }
 
 export default Services;
+
+
