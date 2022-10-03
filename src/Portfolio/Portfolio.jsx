@@ -5,61 +5,15 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./portfolio.css";
 
 function Portfolio(props) {
-  function Slider() {
-    return (
-      <OwlCarousel className="owl-theme" loop margin={10} nav>
-        <div class="item">
-          <h4>1</h4>
-        </div>
-        <div class="item">
-          <h4>2</h4>
-        </div>
-        <div class="item">
-          <h4>3</h4>
-        </div>
-        <div class="item">
-          <h4>4</h4>
-        </div>
-        <div class="item">
-          <h4>5</h4>
-        </div>
-        <div class="item">
-          <h4>6</h4>
-        </div>
-        <div class="item">
-          <h4>7</h4>
-        </div>
-        <div class="item">
-          <h4>8</h4>
-        </div>
-        <div class="item">
-          <h4>9</h4>
-        </div>
-        <div class="item">
-          <h4>10</h4>
-        </div>
-        <div class="item">
-          <h4>11</h4>
-        </div>
-        <div class="item">
-          <h4>12</h4>
-        </div>
-      </OwlCarousel>
-    );
-  }
-
-  
-
-
   function Slider2(){
 
     const work = ["tesla", "moshified", "admitcard", "to-do", "safetravel", "signal", "netflix"]
     return(
-      <div class="project-grid">
+      <div className="project-grid">
 						{
-            work.map((i)=>(
+            work.map((i,index)=>(
             
-                <img src={`projects/${i}.jpg`} alt=""/>
+                <img key={index} src={`projects/${i}.jpg`} alt=""/>
               
             ))
             }

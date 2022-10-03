@@ -52,17 +52,28 @@ section{
     align-items: center;
     justify-content: center;
 }
+.modal-content{
+    padding: 40px;
+}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 750px){
-
-   
-
     .react-tabs{
         width: 80vw;
+    }  
+    .heading{
+        padding-bottom: 30px !important;
+    }
+    .heading p{
+        font-size: 5vw !important;
+    }
+    .heading span{
+        font-size: 3vw !important;
     }
 
-    
+.navbar .menu .contact button, .about-main .download-cv button {
+    font-size: 4vw !important;
+}
 }
 
 

@@ -11,7 +11,7 @@ function footer() {
     
     <footer>
 			<div className="container footer-cols">
-        <div class="fcolumns social"> 
+        <div className="fcolumns social"> 
 						<ul>
 							<li> <a href="https://www.instagram.com/nishitaa_2002/" target="_blank"><InstagramIcon/></a></li>
 							<li> <a href="https://www.facebook.com/nishita.gupta.3344" target="_blank"><FacebookIcon/></a></li>
@@ -21,7 +21,7 @@ function footer() {
 						</ul>
 			  </div>
         
-        <div class="fcolumns"> 
+        <div className="fcolumns"> 
 						<span>Copyright @ Nishita Gupta</span>
 			  </div>
       </div>

@@ -28,19 +28,11 @@
 	box-shadow: 3px 2px 15px grey;
 	border-radius: 10px;
 	position: relative;
+  transition: all 0.75s ease-out;
 }
-.portfolio-section .project-grid img:before{
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 90;
-  cursor: pointer;
+.portfolio-section .project-grid img:hover{
+  transform: scale(1.1);
+    filter: drop-shadow(1px 2px 3px rgb(45, 45, 45));
 }
 
 @media only screen 

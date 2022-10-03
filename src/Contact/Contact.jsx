@@ -8,15 +8,15 @@ function Contact(props) {
         <h1>Contact Me Here</h1>
         <form action="">
           <div className="field">
-            <label For="">Name</label>
+            <label htmlFor="">Name</label>
             <input type="text" />
           </div>
           <div className="field">
-            <label For="">E-mail</label>
+            <label htmlFor="">E-mail</label>
             <input type="text" />
           </div>
           <div className="field">
-            <label For="">Phone</label>
+            <label htmlFor="">Phone</label>
             <input type="text" />
           </div>
           <div className="field">

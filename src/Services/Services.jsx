@@ -5,10 +5,12 @@ import BrushIcon from "@mui/icons-material/Brush";
 import CodeIcon from "@mui/icons-material/Code";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Services.css';
+import ModalView from "./ModalView";
 import { Hidden } from "@mui/material";
 
 function Services(props) {
   const [modal, setModal] = useState(false);
+  const [modalDetail, setModalDetail] = useState('');
 
   const services = [
     {
@@ -28,42 +30,41 @@ function Services(props) {
     },
   ];
 
+
+  function ModalView(){
+    return (
+      <Modal size="lg" isOpen={modal} toggle={() => setModal(!modal)}>
+        <ModalHeader toggle={() => setModal(!modal)}>
+                {modalDetail}
+          </ModalHeader>
+      </Modal>
+    );
+  }
+
   function ServiceContainer() {
     return (
       <div className="service-container" id={props.aref}>
-        {services.map((i, index) => (
+        {services.map(({service,logo,description}, index) => (
           
-          <div key={index} className="service-box">
+            <div key={index} className="service-box">
             <div className="service-data-wrapper">
               <div className="service-data">
-                <p>{i.logo}</p>
-                <p>{i.service}</p>
+                <p>{logo}</p>
+                <p>{service}</p>
               </div>
-              <button className="modalButton" onClick={() => setModal(true)}>
+              <button className="modalButton" onClick={() => {setModal(true); setModalDetail(description)}}>
               View more <ArrowForwardIcon/>
               </button>
             </div>
           </div>
+          
+          
         ))}
       </div>
     );
   }
 
-  function ModalView() {
-    return (
-      <Modal size="lg" isOpen={modal} toggle={() => setModal(!modal)}>
-        {services.map((i, index) => (
-      
-          <>
-            <ModalHeader key={index} toggle={() => setModal(!modal)}>
-              {i.description}
-            </ModalHeader>
-          </>
-          
-        ))}
-      </Modal>
-    );
-  }
+  
 
   return (
     <section className="section5" id="services">
@@ -72,7 +73,7 @@ function Services(props) {
           <p>Services</p>
           <span>My Services</span>
         </div>
-        <ModalView />
+        <ModalView/>
         <ServiceContainer />
       </div>
     </section>

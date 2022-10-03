@@ -16,9 +16,6 @@ function Banner(props) {
             </div>
           </div>
           </Zoom>
-          {/* <div className="pic">
-            <img src="images/mypic.png" alt="My Picture" />
-          </div> */}
         </div>
       </div>
     </section>

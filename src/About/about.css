@@ -19,6 +19,14 @@
     padding: 0 70px;
     flex-wrap: wrap;
 }
+.about-main .pic{
+    transition: all 0.75s ease-out;
+}
+.about-main .pic:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 2px 3px rgb(45, 45, 45));
+}
+
 .about-main .pic , .about-main .about-para{
     width: 40%;
 }
@@ -81,6 +89,8 @@
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 750px){
+    
+
     .about-main .pic , .about-main .about-para{
         width: 100%;
     }
@@ -95,4 +105,8 @@
         font-size: 5vw;
         font-weight: 500;
     }  
+    .about-main .pic:hover{
+        transform: scale(1);
+        filter: drop-shadow(1px 1px 1px rgb(45, 45, 45));
+    }
 }
