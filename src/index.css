@@ -46,6 +46,12 @@ section{
 .react-tabs{
     width: 40vw;
 }
+
+.modal{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 750px){
