@@ -193,6 +193,7 @@
         height: 100vh;
         flex-direction: column;
         font-size: 20px;
+        padding-top: 30px;
         gap: 30px;
         padding-left: 0;
         transition: all .3s ease;       

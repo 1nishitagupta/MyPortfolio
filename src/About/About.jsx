@@ -3,6 +3,25 @@ import "./about.css"
 import DownloadIcon from '@mui/icons-material/Download';
 
 function About(props) {
+
+
+
+
+  // Function will execute on click of button
+  const onDownload = () => {
+    // using Java Script method to get PDF file
+    fetch('Nishita.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Nishita.pdf';
+            alink.click();
+        })
+    })
+}
   return (
     <section className="section2" id={props.aref}>
       <div className="container">
@@ -47,7 +66,7 @@ function About(props) {
                 </div>
               </div>
               <div className="download-cv">
-                <button>
+                <button onClick={onDownload}>
                   <DownloadIcon/> Download CV
                 </button>
               </div>
