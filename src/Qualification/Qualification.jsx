@@ -50,10 +50,10 @@ function Qualification(props) {
   ];
 
   return (
-    <section className="section4" id={props.aref}>
+    <section className="section4" >
       <div className="container">
         <div className="education">
-          <div className="heading">
+          <div className="heading" id={props.aref}>
             <p>Qualifications</p>
             <span>My Education</span>
           </div>
