@@ -67,7 +67,7 @@ function Services(props) {
   
 
   return (
-    <section className="section5" id="services">
+    <section className="section5" id={props.aref}>
       <div className="container">
         <div className="heading">
           <p>Services</p>
