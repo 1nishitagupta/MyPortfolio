@@ -28,7 +28,7 @@
 	box-shadow: 3px 2px 15px grey;
 	border-radius: 10px;
 	position: relative;
-  transition: all 0.75s ease-out;
+  transition: all 0.2s ease-out;
 }
 .portfolio-section .project-grid img:hover{
   transform: scale(1.1);

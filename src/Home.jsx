@@ -30,7 +30,7 @@ function Home() {
       <Hamburger isActive={isActive} setIsActive={setIsActive}/>
       <Banner aref="home" />
       <About aref="about"/>
-      <Qualification aref="education"/>
+      <Qualification aref="qualifications"/>
       <Skills aref="skills"/>
       <Services aref="services"/>
       <Portfolio aref="portfolio"/>
