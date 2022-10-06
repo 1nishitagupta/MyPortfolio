@@ -77,3 +77,31 @@ section{
 }
 
 
+.blog-section{
+    color: #f6f6f6;
+    background-color: #3a3a3a;
+}
+
+.home-button{
+    border: none;
+    background-color: #705dec;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.home-button:hover{
+    background-color: #4b3cac;
+    transition: all .2s ease-in-out;
+}
+
+
+.blog .row article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center ; */
+    padding: 10px 0;
+}

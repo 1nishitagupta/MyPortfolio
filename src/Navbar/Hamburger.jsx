@@ -20,6 +20,7 @@ function Hamburger({isActive} , props) {
       <li><a href="#qualifications"><SchoolIcon/> Qualifications</a></li>
       <li><a href="#contact"><PermContactCalendarIcon/> Contact me</a></li>
       <li><a href="#social"><PersonAddAlt1Icon/> Social Media</a></li>
+      <li><a href="#"><PersonAddAlt1Icon/> Blog </a></li>
 
     </ul>
   </div>

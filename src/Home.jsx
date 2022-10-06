@@ -9,6 +9,9 @@ import Services from "./Services/Services";
 import Contact from "./Contact/Contact"
 import Footer from "./Footer/Footer";
 import Hamburger from "./Navbar/Hamburger";
+import Blog from "./Blog";
+import { Routes, Route } from "react-router-dom";
+
 import Fade from 'react-reveal/Fade';
 
 function Home() {
@@ -22,20 +25,40 @@ function Home() {
     }
 
 
-  return (
-    <>
-  
-      <Navbar isActive={isActive} setIsActive={setIsActive} handleClick={handleClick}  />
-   
-      <Hamburger isActive={isActive} setIsActive={setIsActive}/>
-      <Banner aref="home" />
+    function HomePage(){
+      return(
+        <>
+        <Banner aref="home" />
+      
+      
       <About aref="about"/>
       <Qualification aref="qualifications"/>
       <Skills aref="skills"/>
       <Services aref="services"/>
       <Portfolio aref="portfolio"/>
       <Contact aref="contact"/>
+      
+
       <Footer/>
+        </>
+      )
+    }
+
+
+  return (
+    <>
+
+      
+  
+      <Navbar isActive={isActive} setIsActive={setIsActive} handleClick={handleClick}  />
+      
+      <Routes>
+        <Route path="blog" element={ <Blog/> } />
+        <Route path="/" element={<HomePage /> }/>
+      </Routes>
+      <Hamburger isActive={isActive} setIsActive={setIsActive}/>
+      
+      
     </>
   );
 }
