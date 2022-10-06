@@ -6,11 +6,11 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import './footer.css'
 
-function footer() {
+function footer(props) {
   return (
     
     <footer>
-			<div className="container footer-cols">
+			<div className="container footer-cols" id={props.aref}>
         <div className="fcolumns social"> 
 						<ul>
 							<li> <a href="https://www.instagram.com/nishitaa_2002/" target="_blank"><InstagramIcon/></a></li>

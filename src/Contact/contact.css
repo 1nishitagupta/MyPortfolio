@@ -1,3 +1,4 @@
+
 .contact-container{
     height: 80vh;
     position: relative;
@@ -14,13 +15,9 @@
     position: absolute;
     top: 0;
     right: 10px;
-
     background: #f6f6f6;
     margin: 4% 5%;
-    padding: 30px;
-
-
-    
+    padding: 30px;    
 }
 .form form{
     display: flex;
@@ -77,6 +74,6 @@
         display: none;
     }
     .top{
-        height: 100%;
+        height: 100% !important;
     }
   }

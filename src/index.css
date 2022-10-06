@@ -5,8 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -55,6 +55,8 @@ section{
 .modal-content{
     padding: 40px;
 }
+
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 750px){
@@ -103,5 +105,5 @@ section{
     flex-direction: column;
     justify-content: center;
     /* align-items: center ; */
-    padding: 10px 0;
+    padding: 15px 30px;
 }

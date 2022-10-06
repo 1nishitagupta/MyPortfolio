@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Fade from 'react-reveal/Fade';
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 import "./navbar.css"
 
 function Navbar({isActive , setIsActive ,handleClick}) {
@@ -13,11 +12,7 @@ function Navbar({isActive , setIsActive ,handleClick}) {
     };
   }, []);
 
-  let location = useLocation();
-  useEffect(() => {
-    console.log(location.pathname)
-
-  }, [location])
+  
   
     
 
@@ -68,7 +63,6 @@ function Navbar({isActive , setIsActive ,handleClick}) {
         </div>
       </div>
     </nav>
-    {/* <Outlet /> */}
     </>
   );
 }

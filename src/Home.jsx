@@ -39,7 +39,7 @@ function Home() {
       <Contact aref="contact"/>
       
 
-      <Footer/>
+      <Footer aref="footer"/>
         </>
       )
     }
@@ -56,7 +56,7 @@ function Home() {
         <Route path="blog" element={ <Blog/> } />
         <Route path="/" element={<HomePage /> }/>
       </Routes>
-      <Hamburger isActive={isActive} setIsActive={setIsActive}/>
+      <Hamburger isActive={isActive} setIsActive={setIsActive} handleClick={handleClick}/>
       
       
     </>
