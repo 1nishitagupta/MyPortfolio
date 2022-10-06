@@ -16,17 +16,17 @@ function Services(props) {
     {
       logo: <DesignServicesIcon/>,
       service: "UI/UX",
-      description: "I develop the user interface UI/UX",
+      description: "I develop UI/UX",
     },
     {
       logo: <CodeIcon/>,
       service: "Front-end Development",
-      description: "I develop the user interface Front End",
+      description: "I am a Front End Developer",
     },
     {
       logo: <BrushIcon/>,
       service: "Branding",
-      description: "I develop the user interface Branding",
+      description: "I can do Branding",
     },
   ];
 
