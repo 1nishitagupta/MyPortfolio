@@ -50,6 +50,7 @@
         padding: 50px 0;
         font-size: 6vw;
         text-align: center;
+        height: 100vh;
     }
     .intro .heading1 p:first-of-type {
         font-size: 7vw;
