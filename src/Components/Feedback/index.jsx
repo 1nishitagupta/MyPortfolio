@@ -19,7 +19,7 @@ function FeedBack() {
           <span></span>
         </div>
         <div>
-        <div
+        {/* <div
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -33,7 +33,7 @@ function FeedBack() {
                 <span>{data.email}</span>
                 <span>{data.name}</span>
                 
-              </div>
+              </div> */}
           
 
           {feedback.map((feed,index) => {
