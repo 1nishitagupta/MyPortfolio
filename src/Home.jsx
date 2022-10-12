@@ -8,9 +8,12 @@ import Qualification from "./Components/Qualification";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import FeedBack from "./Components/Feedback";
 import Hamburger from "./Components/Navbar/Hamburger";
 import Blog from "./Routes/Blog";
 import { Routes, Route } from "react-router-dom";
+import Feedback from "./Routes/Feedback";
+
 
 function Home() {
   const [isActive, setIsActive] = useState(false);
@@ -24,11 +27,13 @@ function Home() {
       <>
         <Banner aref="home" />
         <About aref="about" />
+        
         <Qualification aref="qualifications" />
         <Skills aref="skills" />
         <Services aref="services" />
         <Portfolio aref="portfolio" />
         <Contact aref="contact" />
+        <FeedBack/>
         <Footer aref="footer" />
       </>
     );
@@ -43,6 +48,7 @@ function Home() {
       />
       <Routes>
         <Route path="blog" element={<Blog />} />
+        <Route path="feedback" element={<Feedback />} />
         <Route path="/" element={<HomePage />} />
       </Routes>
       <Hamburger
@@ -55,3 +61,7 @@ function Home() {
 }
 
 export default Home;
+
+
+
+

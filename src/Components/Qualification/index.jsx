@@ -8,7 +8,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import DataObjectIcon from '@mui/icons-material/DataObject';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import { EvStation } from "@mui/icons-material";
+
 
 function Qualification(props) {
   const education = [

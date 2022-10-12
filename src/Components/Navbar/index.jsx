@@ -41,6 +41,7 @@ function Navbar({isActive , setIsActive ,handleClick}) {
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/feedback">Feedback</Link></li>
                 
               </ul>
               

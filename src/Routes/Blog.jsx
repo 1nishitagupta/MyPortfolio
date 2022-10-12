@@ -8,11 +8,11 @@ function Blog() {
   const [posts, setPosts] = useState([])
     useEffect(() => {
 
-        async function fetchData(){
-            const request = await axios.get("https://dummyjson.com/posts")
-            console.log(request.data.posts)
-            setPosts(request.data.posts)
-        }
+      async function fetchData(){
+        const request = await axios.get("https://dummyjson.com/posts")
+        console.log(request.data.posts)
+        setPosts(request.data.posts)
+    }
 
         fetchData();
     }, []);
