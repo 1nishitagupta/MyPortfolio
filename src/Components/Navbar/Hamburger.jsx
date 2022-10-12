@@ -23,6 +23,7 @@ function Hamburger({isActive , handleClick , setIsActive} , props ) {
       <li onClick={handleClick}><a href="#contact"><PermContactCalendarIcon/> Contact me</a></li>
       <li onClick={handleClick}><a href="#footer"><PersonAddAlt1Icon/> Social Media</a></li>
       <li onClick={handleClick}><Link to="/blog"><BookIcon/>Blog</Link></li>
+      <li onClick={handleClick}><Link to="/feedback"><BookIcon/>Feedback</Link></li>
 
     </ul>
   </div>
