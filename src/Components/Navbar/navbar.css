@@ -20,7 +20,7 @@
     transition: all .4s ease-in-out;
 
 }
-.navbar{
+.navbar-portfolio{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,33 +29,33 @@
     font-size: 1.2vw;
     
 }
-.navbar .logo{
+.navbar-portfolio .logo{
     height: 100%;
     width: auto;
 }
-.navbar .logo .logoblack{
+.navbar-portfolio .logo .logoblack{
     height: 100%;
     transition: all .4s ease-in-out;
 }
-.navbar .logo .logowhite{
+.navbar-portfolio .logo .logowhite{
     height: 100%;
     filter: invert(100%);
     transition: all .4s ease-in-out;
 }
 
-.navbar .menu{
+.navbar-portfolio .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar .dropdown ul{
+.navbar-portfolio .dropdown ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     padding-right: 60px;
 }
-.navbar .dropdown ul li a{
+.navbar-portfolio .dropdown ul li a{
     padding: 0 10px;
     cursor: pointer;
     transition: all .2s ease;
@@ -65,11 +65,11 @@
     
 }
 
-.navbar .ham-dropdown ul li a:hover{
+.navbar-portfolio .ham-dropdown ul li a:hover{
     color: #705edc;
     transition: all .2s ease;
 }
-.navbar ul li a:before{
+.navbar-portfolio ul li a:before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -95,18 +95,18 @@
 .navscroll ul li a:hover:before{
 	width: 100%;
 }
-.navbar .ham-dropdown{
+.navbar-portfolio .ham-dropdown{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     padding-right: 60px;
 }
-.navbar.ham-dropdown ul{
+.navbar-portfolio.ham-dropdown ul{
     padding-left: 0;
 }
 
-.navbar .menu .contact button{
+.navbar-portfolio .menu .contact button{
     padding: 10px 20px 10px 30px;
     font-size: 1.2vw;
     color: #fff;
@@ -143,11 +143,11 @@
 .ham{
     display: none;
 }
-.navbar .menu .contact button a{
+.navbar-portfolio .menu .contact button a{
     text-decoration: none;
     color: inherit;
 }
-.navbar .menu .contact button:hover{
+.navbar-portfolio .menu .contact button:hover{
     background-color: #4b3cac;
     transition: all .2s ease-in-out;
 }
@@ -227,7 +227,7 @@
     .intro{
         padding: 10px;
     }
-    .navbar .menu .contact button , .about-main .download-cv button{
+    .navbar-portfolio .menu .contact button , .about-main .download-cv button{
         font-size: 2.3vh;
     }
     

@@ -20,7 +20,7 @@ function Navbar({isActive , setIsActive ,handleClick}) {
     <>
     <nav className={`${scrollY > 100 ? "navscroll" : "nav"} `}>
       <div className="container">
-        <div className="navbar">
+        <div className="navbar-portfolio">
         <Fade left>
           <div className="logo">
             <img

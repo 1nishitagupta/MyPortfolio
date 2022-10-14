@@ -1,4 +1,6 @@
 import React from "react";
+import {TextField} from '@mui/material'
+
 import "./contact.css";
 
 function Contact(props) {
@@ -8,16 +10,16 @@ function Contact(props) {
         <h1>Contact Me Here</h1>
         <form action="">
           <div className="field">
-            <label htmlFor="">Name</label>
-            <input type="text" />
+            {/* <label htmlFor="">Name</label> */}
+            <TextField id="standard-basic" label="Name" variant="standard" />
           </div>
           <div className="field">
-            <label htmlFor="">E-mail</label>
-            <input type="text" />
+            {/* <label htmlFor="">E-mail</label> */}
+            <TextField id="standard-basic" label="Email" variant="standard" />
           </div>
           <div className="field">
-            <label htmlFor="">Phone</label>
-            <input type="text" />
+            {/* <label htmlFor="">Phone</label> */}
+            <TextField id="standard-basic" label="Phone" variant="standard" />
           </div>
           <div className="field">
             <label htmlFor="">Message</label>

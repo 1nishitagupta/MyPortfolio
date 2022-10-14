@@ -73,7 +73,7 @@ section{
         font-size: 3vw !important;
     }
 
-.navbar .menu .contact button, .about-main .download-cv button {
+.navbar-portfolio .menu .contact button, .about-main .download-cv button {
     font-size: 4vw !important;
 }
 }

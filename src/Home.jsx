@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Components/Navbar";
 import Banner from "./Components/Banner";
 import About from "./Components/About";
+import SwipeableTextMobileStepper from "./Components/Awards/Awards";
 import Skills from "./Components/Skills";
 import Portfolio from "./Components/Portfolio";
 import Qualification from "./Components/Qualification";
@@ -27,7 +28,7 @@ function Home() {
       <>
         <Banner aref="home" />
         <About aref="about" />
-        
+        <SwipeableTextMobileStepper/>
         <Qualification aref="qualifications" />
         <Skills aref="skills" />
         <Services aref="services" />
