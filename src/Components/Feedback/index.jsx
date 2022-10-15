@@ -27,6 +27,7 @@ function FeedBack() {
             }}
           >
             <Rating
+            sx={{fontSize:'3rem'}}
               name="simple-controlled"
               value={value}
               onChange={(event, newValue) => {
