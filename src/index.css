@@ -107,3 +107,7 @@ section{
     /* align-items: center ; */
     padding: 15px 30px;
 }
+
+.css-iljtu2-MuiRating-root{
+    font-size: 3rem !important;
+}

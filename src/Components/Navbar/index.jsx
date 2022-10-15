@@ -12,10 +12,6 @@ function Navbar({isActive , setIsActive ,handleClick}) {
     };
   }, []);
 
-  
-    
-
-
   return (
     <>
     <nav className={`${scrollY > 100 ? "navscroll" : "nav"} `}>

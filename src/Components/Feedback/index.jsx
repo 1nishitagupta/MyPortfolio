@@ -9,32 +9,21 @@ function FeedBack() {
   const feedback = useSelector((state) => state.feedback);
   let data = JSON.parse(localStorage.getItem("storedDetail"));
 
-  console.log(data);
+  
 
   return (
     <section>
       <div className="container">
         <div className="heading">
           <p>FeedBacks</p>
-          {/* <Typography component="legend"></Typography> */}
-          {/* <Rating
-            name="simple-controlled"
-            value={value}
-            onChange={(event, newValue) => {
-              setValue(newValue);
-            }}
-          /> */}
         </div>
         <div>
           <div
             style={{
               display: "flex",
               justifyContent: "center",
-              // flexDirection: "column",
-              // alignItems: "center",
-              // padding: "20px 30px",
               gap: "10px",
-              fontSize:"3vw"
+              fontSize: "3vw",
             }}
           >
             <Rating
