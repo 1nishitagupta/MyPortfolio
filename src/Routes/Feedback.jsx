@@ -1,13 +1,11 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { add } from "../store/feedbackSlice";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-
 import "./feedback.css";
 
 function Feedback() {
   const dispatch = useDispatch();
-  
 
   const [feedback, setFeedback] = useState({
     name: "",
@@ -18,15 +16,13 @@ function Feedback() {
   const handleChange = (e) => {
     setFeedback({ ...feedback, [e.target.name]: e.target.value });
   };
-  
+
   function HomeButton() {
     const navigate = useNavigate();
 
     function handleClick() {
       navigate("/");
     }
-
-    
 
     return (
       <button className="home-button" type="button" onClick={handleClick}>
@@ -41,7 +37,6 @@ function Feedback() {
     localStorage.setItem("storedDetail", JSON.stringify(feedback));
     setFeedback({ name: "", email: "", message: "" });
   }
-
 
   return (
     <section className="feed-section">
@@ -83,7 +78,6 @@ function Feedback() {
                 <button onClick={(e) => handleFeed(e, feedback)}>Submit</button>
               </div>
             </form>
-            
           </div>
         </div>
       </div>
