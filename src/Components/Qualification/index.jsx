@@ -30,11 +30,6 @@ function Qualification(props) {
   ];
   const training = [
     {
-      "name":"Durapid Technologies",
-      "role":"Asscociate Software Developer",
-      "degree":"Front-end Development",
-    },  
-    {
       "name":"Full Stack Learning",
       "role":"Trainee",
       "learned": "HTML, CSS, JS, React, Bootstrap, PHP, Wordpress",

@@ -59,7 +59,7 @@ function Navbar({isActive , setIsActive ,handleClick}) {
         </div>
       </div>
     </nav>
-    {/* <Outlet /> */}
+    
     </>
   );
 }
