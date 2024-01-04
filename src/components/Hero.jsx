@@ -22,25 +22,7 @@ const Hero = () => {
             <p className={`${styles.heroSubText}`}>
               I develop Progressive web applications
             </p>
-            {/* <Typewriter
-              options={{
-                strings: [
-                  "Frontend Developer",
-                  "Designer",
-                  "Developer",
-                  "Artist",
-                ],
-                autoStart: true,
-                loop: true,
-                delay: 50, // Delay in milliseconds between each character typing
-                deleteSpeed: "natural", // Speed of deleting characters ('natural', 'slow', 'fast')
-                pauseFor: 1500, // Pause duration in milliseconds before starting a new string
-                cursor: "|", // Custom cursor character ('|', '_', etc.)
-                cursorStyle: "_", // Custom CSS styles for the cursor
-                wrapperClassName: "wrapper", // Custom class name for the typewriter wrapper
-                cursorClassName: "cursor",
-              }}
-            /> */}
+    
             <Zoom>
               <a href={resume} download>
                 <button className="px-8 py-3 m-[30px] transition duration-200 ease-in-out bg-violet-800 hover:bg-violet-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 shadow-lg w-fit rounded-2xl">
