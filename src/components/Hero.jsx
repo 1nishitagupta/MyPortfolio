@@ -22,7 +22,7 @@ const Hero = () => {
             <p className={`${styles.heroSubText}`}>
               I develop Progressive web applications
             </p>
-    
+
             <Zoom>
               <a href={resume} download>
                 <button className="px-8 py-3 m-[30px] transition duration-200 ease-in-out bg-violet-800 hover:bg-violet-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 shadow-lg w-fit rounded-2xl">

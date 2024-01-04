@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { close, menu } from "../assets";
@@ -9,11 +9,30 @@ import { nishitaLogo } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 600) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <nav
       className={`
-        ${styles.paddingX} w-full flex fixed bg-transparent items-center top-0 z-20 
+        ${styles.paddingX} w-full flex fixed items-center top-0 z-20 
+        transition-all duration-300 ease-in-out 
+        ${scrolling ? "bg-primary" : "bg-transparent"}
       `}
     >
       <div className="w-full m-auto h-20 flex items-center justify-between">

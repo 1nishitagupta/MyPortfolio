@@ -27,7 +27,8 @@ const App = () => {
         <Tech />
         <Projects />
         <Feedbacks />
-        <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
+        <div className=" bg-primary">
+          {/* <div class="absolute inset-0 bg-black bg-opacity-80"></div> */}
           <Contact />
         </div>
       </div>
