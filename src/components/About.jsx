@@ -7,30 +7,32 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Zoom } from "react-awesome-reveal";
 
 const ServiceCard = ({ title, index, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
-      <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full green-pink-gradient rounded-[30px] shadow-card p-[1px]"
-      >
-        <div
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450,
-          }}
-          className="bg-tertiary rounded-[20px] py-5 px-6 min-h-[200px] justify-evenly flex items-center flex-col"
+    <Zoom>
+      <Tilt className="xs:w-[250px] w-full">
+        <motion.div
+          variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+          className="w-full green-pink-gradient rounded-[30px] shadow-card p-[1px]"
         >
-          <img src={icon} alt={title} className="object-contain h-16 w-16" />
-          <h3 className="text-white text-[20px] font-bold text-center">
-            {title}
-          </h3>
-        </div>
-      </motion.div>
-    </Tilt>
+          <div
+            options={{
+              max: 45,
+              scale: 1,
+              speed: 450,
+            }}
+            className="bg-tertiary rounded-[20px] py-5 px-6 min-h-[200px] justify-evenly flex items-center flex-col"
+          >
+            <img src={icon} alt={title} className="object-contain h-16 w-16" />
+            <h3 className="text-white text-[20px] font-bold text-center">
+              {title}
+            </h3>
+          </div>
+        </motion.div>
+      </Tilt>
+    </Zoom>
   );
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionWrapper } from "../hoc";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade, Slide, Zoom } from "react-awesome-reveal";
 import { styles } from "../styles";
 import { projects, projectsDescription } from "../constants";
 import { Tilt } from "react-tilt";
@@ -15,7 +15,7 @@ const ProjectCard = ({
   hosted_link,
 }) => {
   return (
-    <Slide>
+    <Zoom>
       <Tilt
         options={{ max: 20 }}
         className="bg-tertiary p-5 rounded-2xl w-full sm:w-[360px]"
@@ -49,7 +49,7 @@ const ProjectCard = ({
           </div>
         </a>
       </Tilt>
-    </Slide>
+    </Zoom>
   );
 };
 
