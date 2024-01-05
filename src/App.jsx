@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 
 import {
   About,
@@ -12,27 +12,19 @@ import {
   Tech,
   Projects,
 } from "./components";
+import Home from "./Home";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary ">
-        <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat relative">
-          <div class="absolute inset-0 bg-black bg-opacity-80"></div>
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Projects />
-        <Feedbacks />
-        <div className=" bg-primary">
-          {/* <div class="absolute inset-0 bg-black bg-opacity-80"></div> */}
-          <Contact />
-        </div>
-      </div>
-    </BrowserRouter>
+    <div className="relative z-0 bg-primary ">
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 };
 

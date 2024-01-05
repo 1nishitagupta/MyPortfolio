@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { Fade, Zoom } from "react-awesome-reveal";
+import { Outlet } from "react-router-dom";
 
 const ServiceCard = ({ title, index, icon }) => {
   return (

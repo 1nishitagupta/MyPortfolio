@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { close, menu } from "../assets";
 import { styles } from "../styles";
 import NavBarList from "./NavBarList";
