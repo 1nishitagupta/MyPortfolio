@@ -2,7 +2,7 @@ import React from "react";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { instagram, githubSvg, twitter, linkedin, resume } from "../assets";
-import { Fade, Slide, Zoom, Zoom as ZoomAwesome } from "react-awesome-reveal";
+import { Zoom as ZoomAwesome } from "react-awesome-reveal";
 import { Tilt } from "react-tilt";
 
 const Hero = () => {
