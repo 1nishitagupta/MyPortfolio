@@ -17,13 +17,13 @@ const Tech = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>Skills</h2>
       </Zoom>
       <div className="flex flex-row flex-wrap mt-10 justify-center gap-[90px]">
-          {technologies.map((tech, index) => (
-            <Zoom down cascade>
-              <Tilt options={{ max: 80 }} key={index}>
-                <img className="w-36 h-36" src={tech.icon} />
-              </Tilt>
-            </Zoom>
-          ))}
+        {technologies.map((tech, index) => (
+          <Zoom down cascade>
+            <Tilt options={{ max: 80 }} key={index}>
+              <img className="w-36 h-36" src={tech.icon} />
+            </Tilt>
+          </Zoom>
+        ))}
       </div>
     </>
   );
