@@ -1,27 +1,31 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This project showcases my skills, projects, and creative pursuits. It's built using Vite and React to deliver a fast and dynamic user experience.
 
-Currently, two official plugins are available:
+## Live Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Explore my portfolio live at [Your-Live-Link](https://my-portfolio-1nishitagupta.vercel.app/)
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Vite](https://vitejs.dev/): A blazing-fast React build tool.
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 
-- Configure the top-level `parserOptions` property like this:
+## Project Structure
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **src:** Contains the source code for the portfolio.
+- **public:** Houses static assets such as images and icons.
+- **build:** The production build is generated here.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+
+- Responsive design for optimal viewing on various devices.
+- Seamless navigation to explore my projects, skills, and hobbies.
+- Direct integration of creative pursuits, including photography and artwork.
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-portfolio.git
+   ```

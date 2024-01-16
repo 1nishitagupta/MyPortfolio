@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionWrapper } from "../hoc";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Zoom } from "react-awesome-reveal";
 import { styles } from "../styles";
 import { testimonials } from "../constants";
 
