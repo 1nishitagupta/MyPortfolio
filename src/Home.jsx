@@ -16,6 +16,7 @@ const Home = () => {
     <div>
       <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat relative ">
         <div class="absolute inset-0 bg-black bg-opacity-80"></div>
+        {/* <div class="absolute inset-0 bg-black bg-opacity-80"></div> */}
         <Hero />
       </div>
       <About />
