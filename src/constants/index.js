@@ -215,18 +215,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Thank you, Nishita, for your commitment and always staying on the top of the work assigned to you. Nishita is our front-end team member from engineering. At a time, he is usually working on multiple unrelated items.He's always one of the first one to join the calls, comes prepared and makes sure that he gets answers to all his questions. He is always straight to the point which shows that he has thought through every possible scenario before and has come prepared.  His utmost dedication helps us in achieving the sprint goals on time. Also, all the work he does comes out with great quality that over the time he has gained everyone's trust. He knows what he is doing that even when you ask him about something specific related to his work even after weeks or months, he would put everything as if he is working on it now!. Want to express my gratitude to everything you do Nishita and hoping that you will keep the same passion and zeal towards your work and deliver your best!",
-    name: "Dimple Agarwal",
-    designation: "Director Product Management",
-    company: "Publicis Sapient",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Thank you, Nishita, for your commitment and always staying on the top of the work assigned to you. Nishita is our front-end team member from engineering.Your contributions as an employee have been invaluable. Your positive attitude and open communication is very good. Your enthusiasm for learning and growth not only benefits you but also elevates the entire team.",
+    name: "Kajal Bhatnagar",
+    designation: "HR",
+    company: "Durapid Technologies",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQF2HhSUxRcSEg/profile-displayphoto-shrink_800_800/0/1704189711678?e=1710979200&v=beta&t=gtvrbaRaOwLgfVDJQ_9rFhbXuUDrZA3qSyEJ739Uceg",
   },
   {
     testimonial:
-      "Nishita has been one team member who has scaled up pretty well and earned good trust from his peers. He has been involved in some of the key deliverables in Albertsons project, which he delivered with quality. He has shown utmost dedication and accountability towards the work assigned to him. Be it calling out dependencies in early stage or having discussion with business team for requirements, Nishita does a thorough job of understanding the task in hand and then executing it with great dedication. And whenever the track lead is not present Nishita has also stepped up and tried to full-fill the role, which is a great quality and will take him to the road of success. Thank you for your contribution. Keep doing the great work!",
-    name: "Gautam Chadha",
-    designation: "Senior Manager",
-    company: "Publicis Sapient",
+      "Nishita has been one team member who has scaled up pretty well and earned good trust from his peers. In collaboration with Nishita Gupta, I successfully executed a dynamic and engaging frontend project- TWPN using ReactJS & Chakra UI. Leveraging cutting-edge technology, our collaboration brought forth a seamless user experience, blending creativity and functionality effortlessly. Together, we navigated the intricacies of React to craft a polished and responsive interface that sets a new standard in user interaction.",
+    name: "Yashwant Singh",
+    designation: "Software Developer",
+    company: "Durapid Technologies",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {

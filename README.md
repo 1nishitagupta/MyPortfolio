@@ -4,7 +4,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and creativ
 
 ## Live Link
 
-Explore my portfolio live at [Your-Live-Link](https://my-portfolio-1nishitagupta.vercel.app/)
+Explore my portfolio live at [MY-PORTFOLIO-Live-Link](https://my-portfolio-1nishitagupta.vercel.app/)
 
 ## Technologies Used
 
@@ -27,5 +27,5 @@ Explore my portfolio live at [Your-Live-Link](https://my-portfolio-1nishitagupta
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/1nishitagupta/MyPortfolio.git
    ```
