@@ -18,7 +18,7 @@ const Tech = () => {
       </Zoom>
       <div className="flex flex-row flex-wrap mt-10 justify-center gap-[90px]">
         {technologies.map((tech, index) => (
-          <Zoom down cascade>
+          <Zoom down cascade key={index}>
             <Tilt options={{ max: 80 }} key={index}>
               <img className="w-36 h-36" src={tech.icon} />
             </Tilt>

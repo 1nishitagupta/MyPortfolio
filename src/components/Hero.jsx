@@ -20,11 +20,14 @@ const Hero = () => {
 
             <div>
               <h1 className={`${styles.heroHeadText}`}>
-                Hi I'm <span className="text-[#915eff]">Nishita</span>
+                <span className="text-[#7753c4]"> Hi I'm </span>
+                <span className="text-[#523b85]">Nishita</span>
               </h1>
 
               <p className={`${styles.heroSubText}`}>
-                I develop Progressive web applications
+                <span className="text-[#564284]">
+                  I develop Progressive web applications
+                </span>
               </p>
 
               <a href={resume} download>

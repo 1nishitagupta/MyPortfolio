@@ -5,11 +5,12 @@ import { Link } from "react-router-dom";
 const NavBarList = ({ active, classes, setActive, setToggle }) => {
   return (
     <ul className={classes}>
-      {navLinks.map((link) => (
+      {navLinks.map((link, index) => (
         <li
+          key={index}
           className={`
                     font-bold
-                    ${active == link.title ? "text-white" : "text-secondary"}
+                    ${active == link.title ? "text-white" : "text-[#919191]"}
                     hover:text-white text-[18px]
                     font-medium cursor-pointer
                 `}

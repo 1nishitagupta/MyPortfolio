@@ -48,7 +48,9 @@ const Navbar = () => {
             <img
               src={nishitaLogo}
               alt="logo"
-              style={{ filter: "invert(1)" }}
+              style={{
+                filter: scrolling ? "invert(1)" : "",
+              }}
               className=" h-16 object-contain w-full"
             />
           </Link>
@@ -72,6 +74,7 @@ const Navbar = () => {
             } p-4 black-gradient z-10 absolute top-16 right-0 m-4 min-w-[100px] rounded-xl`}
           >
             <NavBarList
+              scrolling={scrolling}
               active={active}
               classes={"flex flex-col gap-4 list-none"}
               setActive={setActive}

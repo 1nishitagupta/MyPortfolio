@@ -15,7 +15,7 @@ const ProjectCard = ({
   hosted_link,
 }) => {
   return (
-    <Zoom>
+    <Fade>
       <Tilt
         options={{ max: 20 }}
         className="bg-tertiary p-5 rounded-2xl w-full sm:w-[360px]"
@@ -49,7 +49,7 @@ const ProjectCard = ({
           </div>
         </a>
       </Tilt>
-    </Zoom>
+    </Fade>
   );
 };
 

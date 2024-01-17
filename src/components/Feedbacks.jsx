@@ -48,7 +48,7 @@ const Feedbacks = () => {
         className={`${styles.paddingX} -mt-20 flex flex-col flex-wrap gap-5 pb-14`}
       >
         {testimonials.map((testimonial, index) => (
-          <Zoom triggerOnce>
+          <Zoom triggerOnce key={index}>
             <FeedbackCard
               key={testimonial.name}
               index={index}
