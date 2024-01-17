@@ -240,6 +240,15 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/D5635AQFJ-nOkJG5v0g/profile-framedphoto-shrink_800_800/0/1703743483541?e=1706079600&v=beta&t=TN9nxlPCPLlwvSFvw5PLf65FOiSYiu0OvRU50RDup98",
   },
+  {
+    testimonial:
+      "Nishita is always curious and excited to learn technologies and tools, techniques which she does not know about. You tell her 20%, she will figure out the remaining 80% by herself. Not one to shy away from challenges, you will always find her laughing, sometimes uncontrollable 😂. She is hardworking and smart and knows what's best for her career. I wish her all the best for the future",
+    name: "Rohit Jain",
+    designation: "Web Development Educator",
+    company: "Full Stack Learning",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQE0oUSttR8MCQ/profile-displayphoto-shrink_800_800/0/1695186986512?e=1710979200&v=beta&t=r4p8trhp-VTe0Y2CXH6uYR9YKUE0a5E42A-etSdVLpo",
+  },
 ];
 
 const projects = [
