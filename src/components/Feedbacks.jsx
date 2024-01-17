@@ -14,7 +14,14 @@ const FeedbackCard = ({
 }) => {
   return (
     <div className="rounded-3xl bg-black-200 p-10 w-full ">
-      <p className="font-bold text-[48px]">"</p>
+      <div className="flex items-center mb-6">
+        <img
+          src={image} // Make sure to pass the correct image source
+          alt={name}
+          className="w-12 h-12 rounded-full mr-4"
+        />
+        <p className="font-bold text-[48px]">"</p>
+      </div>
       <p>{testimonial}</p>
       <div className="flex gap-2 justify-between items-center mt-10">
         <div className="flex flex-col">

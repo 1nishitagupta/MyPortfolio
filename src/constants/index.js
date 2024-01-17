@@ -228,15 +228,17 @@ const testimonials = [
     name: "Yashwant Singh",
     designation: "Software Developer",
     company: "Durapid Technologies",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQGWsb7ZCw-WUA/profile-displayphoto-shrink_800_800/0/1693795131140?e=1710979200&v=beta&t=VjXZmdrpTb_T8YRrWTSXOzXUxOgufQ_pqN-vOlN27A8",
   },
   {
     testimonial:
-      "Nishita Gupta helped us to refactor the FE logic of Rx status which had direct impact on application, and he was able to deliver the change on time with pro-active participation to understand the requirements behind it, reducing the margin of errors before our major release. Thank you Nishita for you dedication and hard work.",
-    name: "Ghanshyam Verma",
-    designation: "Lead Experience Engineer",
-    company: "Publicis Sapient",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I'm grateful to have such an amazing colleague and friend like Nishita at our company. Her exceptional UI design skills and React expertise have not only elevated our projects but also inspired me to learn and grow. In my early days, Nishita generously shared knowledge, making the learning curve enjoyable. A true asset to our team, her talent and joyful nature makes every workday brighter. Cheers to an outstanding collaborator and a good friend.",
+    name: "Mansi Sehgal",
+    designation: "Frontend Developer",
+    company: "Durapid Technologies",
+    image:
+      "https://media.licdn.com/dms/image/D5635AQFJ-nOkJG5v0g/profile-framedphoto-shrink_800_800/0/1703743483541?e=1706079600&v=beta&t=TN9nxlPCPLlwvSFvw5PLf65FOiSYiu0OvRU50RDup98",
   },
 ];
 
