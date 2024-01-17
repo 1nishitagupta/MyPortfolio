@@ -10,7 +10,7 @@ const NavBarList = ({ active, classes, setActive, setToggle }) => {
           key={index}
           className={`
                     font-bold
-                    ${active == link.title ? "text-white" : "text-[#919191]"}
+                    ${active == link.title ? "text-white" : "text-[#606060]"}
                     hover:text-white text-[18px]
                     font-medium cursor-pointer
                 `}
