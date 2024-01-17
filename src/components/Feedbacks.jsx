@@ -13,7 +13,7 @@ const FeedbackCard = ({
   company,
 }) => {
   return (
-    <div className="rounded-3xl bg-black-200 p-10 w-full ">
+    <div className="rounded-3xl bg-black-200 p-10 ">
       <div className="flex items-center mb-6">
         <img
           src={image} // Make sure to pass the correct image source
@@ -51,9 +51,7 @@ const Feedbacks = () => {
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </Fade>
       </div>
-      <div
-        className={`${styles.paddingX} -mt-20 flex flex-col flex-wrap gap-5 pb-14`}
-      >
+      <div className={`${styles.paddingX} -mt-20 flex flex-wrap gap-5 pb-14`}>
         {testimonials.map((testimonial, index) => (
           <Zoom triggerOnce key={index}>
             <FeedbackCard

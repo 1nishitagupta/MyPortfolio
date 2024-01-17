@@ -185,7 +185,7 @@ const technologies = [
 const experiences = [
   {
     title: "Software Developer",
-    company_name: "Durapid Technologies Pvt. Ltd",
+    company_name: "Durapid Technologies Pvt. Ltd -  Jaipur, Rajasthan",
     icon: durapid,
     iconBg: "#E6DEDD",
     date: "Sept 2022 - Present",
@@ -224,7 +224,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Nishita has been one team member who has scaled up pretty well and earned good trust from his peers. In collaboration with Nishita Gupta, I successfully executed a dynamic and engaging frontend project- TWPN using ReactJS & Chakra UI. Leveraging cutting-edge technology, our collaboration brought forth a seamless user experience, blending creativity and functionality effortlessly. Together, we navigated the intricacies of React to craft a polished and responsive interface that sets a new standard in user interaction.",
+      "Nishita has been one team member who has scaled up pretty well and earned good trust from her peers. In collaboration with Nishita Gupta, I successfully executed a dynamic and engaging frontend project- TWPN using ReactJS & Chakra UI. Leveraging cutting-edge technology, our collaboration brought forth a seamless user experience, blending creativity and functionality effortlessly. Together, we navigated the intricacies of React to craft a polished and responsive interface that sets a new standard in user interaction.",
     name: "Yashwant Singh",
     designation: "Software Developer",
     company: "Durapid Technologies",
