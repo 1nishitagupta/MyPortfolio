@@ -229,7 +229,7 @@ const testimonials = [
     designation: "Software Developer",
     company: "Durapid Technologies",
     image:
-      "https://media.licdn.com/dms/image/D4D03AQGWsb7ZCw-WUA/profile-displayphoto-shrink_800_800/0/1693795131140?e=1710979200&v=beta&t=VjXZmdrpTb_T8YRrWTSXOzXUxOgufQ_pqN-vOlN27A8",
+      "https://media.licdn.com/dms/image/D5603AQFUwqqExeDYSQ/profile-displayphoto-shrink_800_800/0/1706072882863?e=1712188800&v=beta&t=AZ0GuqlSd80MDCxD2_ZbrI_vQGji3idBOiQTP-cVPk8",
   },
   {
     testimonial:
