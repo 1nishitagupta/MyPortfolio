@@ -15,36 +15,40 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    emailjs
-      .send(
-        "service_gqdfhh9",
-        "template_3hf817h",
-        {
-          from_name: form.name,
-          to_name: "Nishita",
-          from_email: form.email,
-          to_email: "g.nishi9525@gmail.com",
-          message: form.message,
-        },
-        "MLPqqmNnSNb3RDYhP"
-      )
-      .then(() => {
-        setLoading(false);
-        alert("Thank you. I will get back to you as soon as possible");
-        setFrom({
-          name: "",
-          email: "",
-          message: "",
-        });
-      })
-      .catch((error) => {
-        setLoading(false);
-        alert("Something went wrong");
-        console.log(error);
+  e.preventDefault();
+  if (form.message.length < 10) {
+    alert("Message should be at least 10 characters long.");
+    return;
+  }
+  setLoading(true);
+  emailjs
+    .send(
+      "service_gqdfhh9",
+      "template_3hf817h",
+      {
+        from_name: form.name,
+        to_name: "Nishita",
+        from_email: form.email,
+        to_email: "g.nishi9525@gmail.com",
+        message: form.message,
+      },
+      "MLPqqmNnSNb3RDYhP"
+    )
+    .then(() => {
+      setLoading(false);
+      alert("Thank you. I will get back to you as soon as possible");
+      setFrom({
+        name: "",
+        email: "",
+        message: "",
       });
-  };
+    })
+    .catch((error) => {
+      setLoading(false);
+      alert("Something went wrong");
+      console.log(error);
+    });
+};
 
   const handleChange = (e) => {
     const { name, value } = e.target;
