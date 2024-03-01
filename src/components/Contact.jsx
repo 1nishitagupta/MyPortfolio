@@ -16,10 +16,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
   e.preventDefault();
-  if (form.message.length < 10) {
-    alert("Message should be at least 10 characters long.");
+  const trimmedMessage = form.message.trim(); // Remove leading and trailing spaces
+
+  if (trimmedMessage.length < 10 || !/\S/.test(trimmedMessage)) {
+    alert("Message should be at least 10 characters long and must contain non-space characters.");
     return;
   }
+
   setLoading(true);
   emailjs
     .send(
@@ -30,7 +33,7 @@ const Contact = () => {
         to_name: "Nishita",
         from_email: form.email,
         to_email: "g.nishi9525@gmail.com",
-        message: form.message,
+        message: trimmedMessage, // Use trimmedMessage for sending
       },
       "MLPqqmNnSNb3RDYhP"
     )
