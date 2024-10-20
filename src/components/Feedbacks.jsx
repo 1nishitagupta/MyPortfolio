@@ -11,25 +11,27 @@ const FeedbackCard = ({
   testimonial,
   designation,
   company,
+  linkedin,
 }) => {
   return (
     <div className="rounded-3xl bg-black-200 p-10 ">
       <div className="flex items-center mb-6">
-        <img
-          src={image} 
-          alt={name}
-          className="w-12 h-12 rounded-full mr-4"
-        />
+        <a href={linkedin} target="_blank">
+          <img src={image} alt={name} className="w-12 h-12 rounded-full mr-4" />
+        </a>
         <p className="font-bold text-[48px]">"</p>
       </div>
       <p>{testimonial}</p>
       <div className="flex gap-2 justify-between items-center mt-10">
         <div className="flex flex-col">
           <p className="font-medium">
-            <span>@</span> {name}
-          </p>
-          <p className="text-[14px] text-secondary">
-            {designation} at {company}
+            <span>@</span>
+            <a href={linkedin} target="_blank">
+              {name}
+              <p className="text-[14px] text-secondary">
+                {designation} at {company}
+              </p>
+            </a>
           </p>
         </div>
         <div></div>

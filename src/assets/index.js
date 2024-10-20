@@ -28,6 +28,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import mansi from "./linkedin/mansi.jpeg";
+import kajal from "./linkedin/kajal.jpeg";
+import yashwant from "./linkedin/yashwant.jpeg";
+import rohitjain from "./linkedin/rohitjain.jpeg";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -132,4 +137,8 @@ export {
   accentureLogo,
   // gammaLogo,
   agileLogo,
+  mansi,
+  kajal,
+  yashwant,
+  rohitjain,
 };

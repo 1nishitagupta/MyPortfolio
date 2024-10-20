@@ -52,6 +52,10 @@ import {
   fsl,
   accentureLogo,
   accentureLogo2,
+  mansi,
+  kajal,
+  yashwant,
+  rohitjain,
 } from "../assets";
 
 export const overview =
@@ -239,8 +243,8 @@ const testimonials = [
     name: "Kajal Bhatnagar",
     designation: "HR",
     company: "Durapid Technologies",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQF2HhSUxRcSEg/profile-displayphoto-shrink_800_800/0/1704189711678?e=1710979200&v=beta&t=gtvrbaRaOwLgfVDJQ_9rFhbXuUDrZA3qSyEJ739Uceg",
+    image: kajal,
+    linkedin: "https://www.linkedin.com/in/kajal-bhatnagar/",
   },
   {
     testimonial:
@@ -248,8 +252,8 @@ const testimonials = [
     name: "Yashwant Singh",
     designation: "Software Developer",
     company: "Durapid Technologies",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQFUwqqExeDYSQ/profile-displayphoto-shrink_800_800/0/1706072882863?e=1712188800&v=beta&t=AZ0GuqlSd80MDCxD2_ZbrI_vQGji3idBOiQTP-cVPk8",
+    image: yashwant,
+    linkedin: "https://www.linkedin.com/in/yashwant-singh-6548211b4/",
   },
   {
     testimonial:
@@ -257,8 +261,8 @@ const testimonials = [
     name: "Mansi Sehgal",
     designation: "Frontend Developer",
     company: "Durapid Technologies",
-    image:
-      "https://media.licdn.com/dms/image/D5635AQFJ-nOkJG5v0g/profile-framedphoto-shrink_800_800/0/1703743483541?e=1707127200&v=beta&t=niFlllM7c9ZP9tapxhqkxB9LtP9DjgpAAJQKvDrWTIg",
+    image: mansi,
+    linkedin: "https://www.linkedin.com/in/mansisehgal165/",
   },
   {
     testimonial:
@@ -266,8 +270,8 @@ const testimonials = [
     name: "Rohit Jain",
     designation: "Web Development Educator",
     company: "Full Stack Learning",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQHDxk9hwhVenw/profile-displayphoto-shrink_800_800/0/1705762376996?e=1712188800&v=beta&t=oshvDPyUumQJs6MTSW4PEz9ialdvQf8q2HltWRSVuPA",
+    image: rohitjain,
+    linkedin: "https://www.linkedin.com/in/entrep-rohit/",
   },
 ];
 
