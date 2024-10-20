@@ -69,7 +69,6 @@ import ui from "./service_icon/ui.png";
 import durapid from "./durapid.png";
 import fsl from "./fsl.png";
 import accentureLogo from "./accentureLogo.png";
-import accentureLogo2 from "./accentureLogo2.png";
 
 import nishitaLogo from "./nishitaLogo.png";
 export {
@@ -133,7 +132,6 @@ export {
   durapid,
   fsl,
   nishitaLogo,
-  accentureLogo2,
   accentureLogo,
   // gammaLogo,
   agileLogo,

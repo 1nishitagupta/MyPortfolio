@@ -51,7 +51,6 @@ import {
   durapid,
   fsl,
   accentureLogo,
-  accentureLogo2,
   mansi,
   kajal,
   yashwant,
