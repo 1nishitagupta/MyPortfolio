@@ -16,7 +16,7 @@ const FeedbackCard = ({
     <div className="rounded-3xl bg-black-200 p-10 ">
       <div className="flex items-center mb-6">
         <img
-          src={image} // Make sure to pass the correct image source
+          src={image} 
           alt={name}
           className="w-12 h-12 rounded-full mr-4"
         />

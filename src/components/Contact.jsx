@@ -15,36 +15,43 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    emailjs
-      .send(
-        "service_gqdfhh9",
-        "template_3hf817h",
-        {
-          from_name: form.name,
-          to_name: "Nishita",
-          from_email: form.email,
-          to_email: "g.nishi9525@gmail.com",
-          message: form.message,
-        },
-        "MLPqqmNnSNb3RDYhP"
-      )
-      .then(() => {
-        setLoading(false);
-        alert("Thank you. I will get back to you as soon as possible");
-        setFrom({
-          name: "",
-          email: "",
-          message: "",
-        });
-      })
-      .catch((error) => {
-        setLoading(false);
-        alert("Something went wrong");
-        console.log(error);
+  e.preventDefault();
+  const trimmedMessage = form.message.trim(); // Remove leading and trailing spaces
+
+  if (trimmedMessage.length < 10 || !/\S/.test(trimmedMessage)) {
+    alert("Message should be at least 10 characters long and must contain non-space characters.");
+    return;
+  }
+
+  setLoading(true);
+  emailjs
+    .send(
+      "service_gqdfhh9",
+      "template_3hf817h",
+      {
+        from_name: form.name,
+        to_name: "Nishita",
+        from_email: form.email,
+        to_email: "g.nishi9525@gmail.com",
+        message: trimmedMessage, // Use trimmedMessage for sending
+      },
+      "MLPqqmNnSNb3RDYhP"
+    )
+    .then(() => {
+      setLoading(false);
+      alert("Thank you. I will get back to you as soon as possible");
+      setFrom({
+        name: "",
+        email: "",
+        message: "",
       });
-  };
+    })
+    .catch((error) => {
+      setLoading(false);
+      alert("Something went wrong");
+      console.log(error);
+    });
+};
 
   const handleChange = (e) => {
     const { name, value } = e.target;

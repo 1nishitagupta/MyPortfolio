@@ -235,7 +235,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Thank you, Nishita, for your commitment and always staying on the top of the work assigned to you. Nishita is our front-end team member from engineering.Your contributions as an employee have been invaluable. Your positive attitude and open communication is very good. Your enthusiasm for learning and growth not only benefits you but also elevates the entire team.",
+      "Thank you, Nishita, for your commitment and always staying on top of the work assigned to you. Nishita is our front-end team member from engineering. Your contributions as an employee have been invaluable. Your positive attitude and open communication is very good. Your enthusiasm for learning and growth not only benefits you but also elevates the entire team.",
     name: "Kajal Bhatnagar",
     designation: "HR",
     company: "Durapid Technologies",
@@ -249,16 +249,16 @@ const testimonials = [
     designation: "Software Developer",
     company: "Durapid Technologies",
     image:
-      "https://media.licdn.com/dms/image/D4D03AQGWsb7ZCw-WUA/profile-displayphoto-shrink_800_800/0/1693795131140?e=1710979200&v=beta&t=VjXZmdrpTb_T8YRrWTSXOzXUxOgufQ_pqN-vOlN27A8",
+      "https://media.licdn.com/dms/image/D5603AQFUwqqExeDYSQ/profile-displayphoto-shrink_800_800/0/1706072882863?e=1712188800&v=beta&t=AZ0GuqlSd80MDCxD2_ZbrI_vQGji3idBOiQTP-cVPk8",
   },
   {
     testimonial:
-      "I'm grateful to have such an amazing colleague and friend like Nishita at our company. Her exceptional UI design skills and React expertise have not only elevated our projects but also inspired me to learn and grow. In my early days, Nishita generously shared knowledge, making the learning curve enjoyable. A true asset to our team, her talent and joyful nature makes every workday brighter. Cheers to an outstanding collaborator and a good friend.",
+      "I'm grateful to have such an amazing colleague and friend like Nishita at our company. Her exceptional UI design skills and React expertise have not only elevated our projects but also inspired me to learn and grow. In my early days, Nishita generously shared knowledge, making the learning curve enjoyable. A true asset to our team, her talent and joyful nature make every workday brighter. Cheers to an outstanding collaborator and a good friend.",
     name: "Mansi Sehgal",
     designation: "Frontend Developer",
     company: "Durapid Technologies",
     image:
-      "https://media.licdn.com/dms/image/D5635AQFJ-nOkJG5v0g/profile-framedphoto-shrink_800_800/0/1703743483541?e=1706079600&v=beta&t=TN9nxlPCPLlwvSFvw5PLf65FOiSYiu0OvRU50RDup98",
+      "https://media.licdn.com/dms/image/D5635AQFJ-nOkJG5v0g/profile-framedphoto-shrink_800_800/0/1703743483541?e=1707127200&v=beta&t=niFlllM7c9ZP9tapxhqkxB9LtP9DjgpAAJQKvDrWTIg",
   },
   {
     testimonial:
@@ -267,7 +267,7 @@ const testimonials = [
     designation: "Web Development Educator",
     company: "Full Stack Learning",
     image:
-      "https://media.licdn.com/dms/image/D4D03AQE0oUSttR8MCQ/profile-displayphoto-shrink_800_800/0/1695186986512?e=1710979200&v=beta&t=r4p8trhp-VTe0Y2CXH6uYR9YKUE0a5E42A-etSdVLpo",
+      "https://media.licdn.com/dms/image/D5603AQHDxk9hwhVenw/profile-displayphoto-shrink_800_800/0/1705762376996?e=1712188800&v=beta&t=oshvDPyUumQJs6MTSW4PEz9ialdvQf8q2HltWRSVuPA",
   },
 ];
 
