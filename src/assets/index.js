@@ -19,6 +19,8 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+// import gammaLogo from "./tech/gammaLogo.svg";
+import agileLogo from "./tech/agileLogo.svg";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -61,6 +63,8 @@ import speedometer from "./service_icon/speedometer.png";
 import ui from "./service_icon/ui.png";
 import durapid from "./durapid.png";
 import fsl from "./fsl.png";
+import accentureLogo from "./accentureLogo.png";
+import accentureLogo2 from "./accentureLogo2.png";
 
 import nishitaLogo from "./nishitaLogo.png";
 export {
@@ -124,4 +128,8 @@ export {
   durapid,
   fsl,
   nishitaLogo,
+  accentureLogo2,
+  accentureLogo,
+  // gammaLogo,
+  agileLogo,
 };

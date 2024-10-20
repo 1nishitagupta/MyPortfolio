@@ -13,6 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
+  agileLogo,
   figma,
   docker,
   meta,
@@ -49,6 +50,8 @@ import {
   speedometer,
   durapid,
   fsl,
+  accentureLogo,
+  accentureLogo2,
 } from "../assets";
 
 export const overview =
@@ -176,19 +179,36 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "Agile",
+    icon: agileLogo,
+  },
   // {
-  //   name: "figma",
-  //   icon: figma,
+  //   name: "Gamma ",
+  // icon: gammaLogo,
   // },
 ];
 
 const experiences = [
   {
     title: "Software Developer",
+    company_name: "Accenture in India - Gurugram , India ",
+    icon: accentureLogo,
+    iconBg: "#E6DEDD",
+    date: "Sept 2024 - Present",
+    points: [
+      " Developed and maintained user interfaces using HTML5, CSS3, and JavaScript ES6.",
+      " Implemented state management with ReactJS and Redux, enhancing application performance.",
+      " Designed user interfaces using Material UI, Chakra UI, and Bootstrap, ensuring a seamless user experience.",
+      " Utilized Tailwind CSS and SCSS for efficient and scalable styling solutions.",
+    ],
+  },
+  {
+    title: "Software Developer",
     company_name: "Durapid Technologies Pvt. Ltd -  Jaipur, Rajasthan",
     icon: durapid,
     iconBg: "#E6DEDD",
-    date: "Sept 2022 - Present",
+    date: "Sept 2022 - Sept 2024",
     points: [
       " Developed and maintained user interfaces using HTML5, CSS3, and JavaScript ES6.",
       " Implemented state management with ReactJS and Redux, enhancing application performance.",
